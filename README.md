@@ -1,3 +1,5 @@
+Project created on Sep 24, 2019, as a task for qualification approval for a Java Developer postion.
+
 Task:
 -----
 Write a program, that can replace patterns in text-based files.
