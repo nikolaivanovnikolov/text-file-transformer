@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+ ++++!Here=====
+    <bean id="exampleBean!Here" class="examples.ExampleBean!Here">
+        <!-- setter injection using !Here_______ -->
+		!Here+++++++
+        <property name="beanTwo!Here" ref="anotherBean!Here"/>
+        <property name="integerProperty" value="!Here:Integer:Foo"/>
+    </bean>
+    <bean id="anotherBean!Here" class="examples.AnotherBean!Here">
+	!Here======
+        <property name="stringProperty" value="!Here:String:Bar"/>
+		<notifications>
+			<notification id="5!Here">
+				<to customer="!Heretrue">!Herejohn@email.com</to>
+				<from>mary@email.com!Here</from>
+			</notification>
+		</notifications>
+    </bean>
+</beans>

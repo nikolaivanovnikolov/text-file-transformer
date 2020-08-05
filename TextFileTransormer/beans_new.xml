@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beans>
+ ++++Where?=====
+    <bean class="examples.ExampleBeanWhere?" id="exampleBeanWhere?">
+        <!-- setter injection using Where?_______ -->
+		Where?+++++++
+        <property name="beanTwoWhere?" ref="anotherBeanWhere?"/>
+        <property name="integerProperty" value="Where?:Integer:Foo"/>
+    </bean>
+    <bean class="examples.AnotherBeanWhere?" id="anotherBeanWhere?">
+	Where?======
+        <property name="stringProperty" value="Where?:String:Bar"/>
+		<notifications>
+			<notification id="5Where?">
+				<to customer="Where?true">Where?john@email.com</to>
+				<from>mary@email.comWhere?</from>
+			</notification>
+		</notifications>
+    </bean>
+</beans>
